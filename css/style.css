@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-color: #000;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 1em;
+
+    font-family: Roboto;
+}
+
+#left-div {
+    background-color: #181E2A;
+    border-radius: 10px 0 0 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#middle-div {
+    width: 8%;
+    height: 3%;
+
+    position: absolute;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+
+    background-color: #000000;
+}
+
+#right-div {
+    background-color: #202938;
+    border-radius: 0 10px 10px 0;
+}
+
+#left-div, #right-div {
+    width: 49vw;
+    height: 100vh; 
+}
+
+#left-top-nav, #left-bot-nav {
+    display: flex;
+    align-items: center;
+    height: 10%;
+
+}
+
+#left-top-nav span:nth-child(1) {
+    border-bottom: 1px solid rgb(181, 253, 198);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    height: 80%;
+}
+
+.form-txt-color {
+    color: rgb(164, 161, 161);
+}
+
+#form h1 {
+    font-size: 1.7em;
+    margin-bottom: 0.9em;
+}
+
+.headings {
+    font-size: 0.7em;
+    background-color: #222838;
+
+    padding: 1em 0 0 1em;
+    height: 3em;
+
+}
+
+#form input {
+    margin-bottom: 1.5em;
+    height: 25px;
+
+    background-color: #222838;
+    border: none;
+    outline: none;
+}
+
+#form input:focus {
+    border-left: 2px solid green;
+}
+
+.div-wid {
+    width: 60%;
+}
+
+.left-span {
+    margin-right: 2.1em;
+}
+
+button {
+    background-color: rgb(181, 253, 198);
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link-color {
+    color: rgb(233, 233, 233);
+}
+
+.unactive-link {
+    color: rgb(109, 109, 109);
+}
+
+.ftr-lnk-color {
+    color: rgb(164, 161, 161);
+}
+
+.link-hover:hover {
+    color: #fff;
+}
