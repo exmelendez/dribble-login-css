@@ -32,8 +32,6 @@ body {
     display: flex;
     justify-content: center;
 
-    padding: 1em;
-
     font-family: Roboto;
 }
 
@@ -107,12 +105,18 @@ body {
 }
 
 #form input {
-    margin-bottom: 1.5em;
     height: 25px;
 
     background-color: #222838;
     border: none;
     outline: none;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 1.5em;
 }
 
 #form input:focus {
